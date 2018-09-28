@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mongodb
+spec:
+  volumes:
+  - name: mongodb-data
+    awsElasticBlockStore:
+    volumeId: my-volume
+    fsType: ext4
+  containers:   
+  - ...
+
+
+###IF NFS VOLUME
+volumes:
+  - name: mongodb-data
+    nfs:
+      server: 1.2.3.4
+      path: /some/path
