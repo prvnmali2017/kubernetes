@@ -7,10 +7,6 @@
 ## Pods
  
 #### Quick guide
- 
- ![d4381a52.png](:storage/942b05ef-d361-4d6a-9c51-0668c54e8931/d4381a52.png)
- 
- 
 ### Writing the Pod
   
 `Reference API - <https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.13/>`
@@ -40,4 +36,8 @@ kubectl -it exec webapp sh
 ```
   
 ### Services
-![6bb540b7.png](:storage/942b05ef-d361-4d6a-9c51-0668c54e8931/6bb540b7.png)
+
+kubernetes/course1/first-service.yaml
+
+```
+kubectl apply -f first-service.yaml
