@@ -3,7 +3,6 @@
  eval `minikube docker-env`
         
  ``` 
- 
 ## Pods
  
 #### Quick guide
@@ -11,9 +10,8 @@
   
 `Reference API - <https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.13/>`
   
-  
   ```
-  piVersion: v1
+ apiVersion: v1
 kind: Pod
 metadata:
   name: webapp
