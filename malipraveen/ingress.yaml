@@ -13,7 +13,7 @@ spec:
       - path: /
         backend:
           serviceName: wordpress
-          servicePort: 4000
+          servicePort: 80
   tls:
   - hosts:
     - stg.malipraveen.net
