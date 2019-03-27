@@ -36,21 +36,6 @@ spec:
           persistentVolumeClaim:
             claimName: wordpress-volumeclaim
 ---
-kind: Service
-apiVersion: v1
-metadata:
-  name: wordpress
-  labels:
-    app: wordpress
-spec:
-  ports:
-    - protocol: TCP
-      name: wordpress
-      port: 80
-      targetPort: 80
-  type: LoadBalancer
-
----
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
