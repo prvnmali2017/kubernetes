@@ -9,7 +9,7 @@ metadata:
     type: endpoints-app
 spec:
   rules:
-  - host: api.endpoints.miaiproject2.cloud.goog
+  - host:
     http:
       paths:
       - backend:
