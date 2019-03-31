@@ -1,9 +1,0 @@
-rbac:
-  create: true
-
-controller:
-  name: tools-controller
-
-  ingressClass: nginx-tools
-
-  replicaCount: 2
