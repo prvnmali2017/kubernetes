@@ -12,4 +12,4 @@ spec:
        nodePort: 30101
    selector:
      app: hello
-     version: 2.0.0
+     rollout: canary
