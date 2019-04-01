@@ -4,6 +4,7 @@ metadata:
    name: hello-service
    labels:
      app: hello
+     namespace: assignment
 spec:
    type: NodePort
    ports:
