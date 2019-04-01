@@ -3,12 +3,13 @@ kind: Deployment
 metadata:
   name: hello
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
         app: hello
         version: 1.0.0
+        namespace: assignment
     spec:
       containers:
         - name: hello

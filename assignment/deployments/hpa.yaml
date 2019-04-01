@@ -4,11 +4,12 @@ metadata:
   name: hello-hpa
   labels:
     app: hello
+    namespace: assignment
 spec:
   scaleTargetRef:
     apiVersion: apps/v1beta1
     kind: Deployment
     name: hello-green
   minReplicas: 2
-  maxReplicas: 8
-  targetCPUUtilizationPercentage: 1
+  maxReplicas: 4
+  targetCPUUtilizationPercentage: 60

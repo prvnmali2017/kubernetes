@@ -3,11 +3,13 @@ kind: Deployment
 metadata:
   name: hello-canary
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
         app: hello
+        rollout: canary 
+        namespace: assignment
     spec:
       containers:
         - name: hello
