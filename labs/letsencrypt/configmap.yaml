@@ -5,4 +5,4 @@ metadata:
   labels:
     type: endpoints-app
 data:
-  JWT_AUDIENCE: "api.endpoints.miaiproject2.cloud.goog"
+  JWT_AUDIENCE: "api.endpoints.simpleai-237202.cloud.goog"

@@ -9,7 +9,7 @@ metadata:
     type: endpoints-app
 spec:
   rules:
-  - host: stg.malipraveen.net
+  - host: simpleai.com.au
     http:
       paths:
       - backend:

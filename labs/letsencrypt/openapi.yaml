@@ -4,14 +4,14 @@ info:
   description: "A simple Google Cloud Endpoints API example."
   title: "Endpoints Example"
   version: "1.0.0"
-host: "api.endpoints.miaiproject2.cloud.goog"
+host: "api.endpoints.simpleai-237202.cloud.goog"
 # [END add_project]
 # basePath prefixes all resource paths 
 basePath: "/"
 # Default to route all calls such as /docs and /healthz
 x-google-allow: all
 x-google-endpoints:
-- name: "api.endpoints.miaiproject2.cloud.goog"
+- name: "api.endpoints.simpleai-237202.cloud.goog"
   allowCors: true
   target: 35.197.161.212
 consumes:
