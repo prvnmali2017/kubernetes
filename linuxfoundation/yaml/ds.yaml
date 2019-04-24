@@ -1,12 +1,12 @@
 apiVersion: extensions/v1beta1
 kind: DaemonSet
 metadata:
-  name: rs-one
+  name: ds-one
 spec:
   template:
     metadata:
       labels:
-        system: ReplicaOne
+        system: DaemonSetOne
     spec:
       containers:
       - name: nginx
